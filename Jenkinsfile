@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Eveline-Jeson/DevOps2/main.git'
+                    url: 'https://github.com/Eveline-Jeson/DevOps2.git'
             }
         }
 
